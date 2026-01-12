@@ -1,0 +1,12 @@
+{
+  "name": "cooksaws-skills",
+  "description": "Skills et plugins Claude Code par CookSaw",
+  "plugins": {
+    "threejs-gamedev": {
+      "name": "threejs-gamedev",
+      "version": "0.1.0",
+      "description": "Skill pour le développement de jeux Three.js de qualité avec TypeScript",
+      "path": "./plugins/threejs-gamedev"
+    }
+  }
+}
