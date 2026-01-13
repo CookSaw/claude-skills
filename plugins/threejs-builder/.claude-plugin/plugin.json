@@ -1,12 +1,9 @@
 {
   "name": "threejs-builder",
   "version": "1.0.0",
-  "description": "Skill pour cr\u00e9er des jeux et applications Three.js avec scene setup, GLTF loading, animations et game patterns",
+  "description": "Skill pour créer des jeux et applications Three.js avec scene setup, GLTF loading, animations et game patterns",
   "author": {
     "name": "CookSaw",
     "email": "romain.garcia99@gmail.com"
-  },
-  "repository": "https://github.com/CookSaw/claude-skills",
-  "keywords": ["threejs", "3d", "game", "webgl", "gltf", "typescript"],
-  "category": "development"
+  }
 }
