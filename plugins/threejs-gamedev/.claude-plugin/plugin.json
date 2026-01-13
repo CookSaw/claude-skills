@@ -1,7 +1,0 @@
-{
-  "name": "threejs-gamedev",
-  "version": "0.1.0",
-  "description": "Skill pour le d\u00e9veloppement de jeux Three.js de qualit\u00e9 avec TypeScript",
-  "author": "Claude Code Plugin",
-  "skills": ["skills/threejs-game"]
-}
