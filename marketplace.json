@@ -1,0 +1,25 @@
+{
+  "name": "cooksaws-skills",
+  "owner": {
+    "name": "CookSaw",
+    "email": "romain.garcia99@gmail.com"
+  },
+  "metadata": {
+    "description": "Skills et plugins Claude Code par CookSaw",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "threejs-builder",
+      "source": "./plugins/threejs-builder",
+      "description": "Skill pour creer des jeux et applications Three.js avec GLTF, animations, game patterns",
+      "version": "1.0.0",
+      "author": {
+        "name": "CookSaw"
+      },
+      "keywords": ["threejs", "game", "3d", "webgl", "gltf"],
+      "category": "development"
+    }
+  ]
+}
