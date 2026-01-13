@@ -1,25 +1,20 @@
 {
-  "name": "cooksaws-skills",
+  "name": "threejs-builder",
   "owner": {
     "name": "CookSaw",
     "email": "romain.garcia99@gmail.com"
   },
   "metadata": {
-    "description": "Skills et plugins Claude Code par CookSaw",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "description": "Plugin Claude Code pour creer des jeux Three.js",
+    "version": "1.0.0"
   },
-  "plugins": [
+  "skills": [
     {
-      "name": "threejs-gamedev",
-      "source": "./plugins/threejs-gamedev",
-      "description": "Skill pour le développement de jeux Three.js de qualité avec TypeScript",
-      "version": "0.1.0",
-      "author": {
-        "name": "CookSaw"
-      },
-      "keywords": ["threejs", "game", "typescript", "3d"],
-      "category": "development"
+      "name": "threejs-builder",
+      "source": "./skills/threejs-builder",
+      "description": "Cree des applications et jeux Three.js avec scene setup, GLTF loading, animations",
+      "version": "1.0.0",
+      "keywords": ["threejs", "game", "3d", "webgl", "gltf"]
     }
   ]
 }

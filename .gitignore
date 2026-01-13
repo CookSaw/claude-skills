@@ -26,3 +26,4 @@ tmpclaude-*
 *.local.md
 .env
 .env.local
+.claude/

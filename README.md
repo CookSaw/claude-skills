@@ -1,50 +1,59 @@
-# Claude Skills
+# Three.js Builder - Claude Code Plugin
 
-Skills et plugins personnalisés pour Claude Code.
+A Claude Code plugin for creating Three.js games and 3D web applications.
 
 ## Installation
 
-Ajoute ce marketplace à Claude Code :
+Add this plugin to your Claude Code installation:
 
 ```bash
-/plugin marketplace add CookSaw/claude-skills
+claude mcp add-json-plugin https://github.com/CookSaw/claude-skills
 ```
 
-Puis installe les plugins souhaités :
+Or clone locally and add manually:
 
 ```bash
-/plugin install threejs-gamedev@cooksaws-skills
+git clone https://github.com/CookSaw/claude-skills.git ~/.claude/plugins/threejs-builder
 ```
 
-## Plugins Disponibles
+## Skills Included
 
-| Plugin | Description |
-|--------|-------------|
-| `threejs-gamedev` | Skill pour le développement de jeux Three.js avec TypeScript |
+### threejs-builder
+
+Creates simple Three.js web apps with:
+- Scene setup, lighting, geometries, materials
+- Animations and responsive rendering
+- GLTF model loading and caching
+- Camera-relative movement for games
+- Game patterns (state machines, object pooling, parallax)
+- Post-processing and shaders
+
+**Trigger phrases:**
+- "Create a Three.js scene/app/showcase"
+- "Build a 3D web game"
+- "Make a WebGL application"
 
 ## Structure
 
 ```
-claude-skills/
-├── marketplace.json          # Définition du marketplace
-├── plugins/
-│   └── threejs-gamedev/      # Plugin Three.js Game Dev
-│       ├── .claude-plugin/
-│       │   └── plugin.json
-│       └── skills/
-│           └── threejs-game/
-│               ├── SKILL.md
-│               ├── references/
-│               └── examples/
-└── README.md
+.claude-plugin/
+  plugin.json          # Plugin manifest
+skills/
+  threejs-builder/
+    SKILL.md           # Main skill instructions
+    references/        # Detailed reference documentation
+      gltf-loading-guide.md
+      game-patterns.md
+      advanced-topics.md
+      reference-frame-contract.md
+    scripts/           # Helper scripts
+      gltf-calibration-helpers.mjs
 ```
 
-## Ajouter un nouveau plugin
+## Author
 
-1. Créer un dossier dans `plugins/`
-2. Ajouter la structure `.claude-plugin/plugin.json` et `skills/`
-3. Référencer dans `marketplace.json`
+**CookSaw** - romain.garcia99@gmail.com
 
-## Licence
+## License
 
 MIT
