@@ -20,6 +20,17 @@
       },
       "keywords": ["threejs", "game", "3d", "webgl", "gltf"],
       "category": "development"
+    },
+    {
+      "name": "pixel-art-game-builder",
+      "source": "./plugins/pixel-art-game-builder",
+      "description": "Build pixel art idle/incremental games with procedural sprites, React/TypeScript/Zustand architecture",
+      "version": "1.0.0",
+      "author": {
+        "name": "CookSaw"
+      },
+      "keywords": ["pixel-art", "idle-game", "incremental", "react", "zustand", "canvas"],
+      "category": "development"
     }
   ]
 }

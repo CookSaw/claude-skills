@@ -1,0 +1,9 @@
+{
+  "name": "pixel-art-game-builder",
+  "version": "1.0.0",
+  "description": "Build pixel art idle/incremental games with procedural sprites, React/TypeScript/Zustand architecture, and contemplative game design",
+  "author": {
+    "name": "CookSaw",
+    "email": "romain.garcia99@gmail.com"
+  }
+}
