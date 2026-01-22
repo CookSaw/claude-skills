@@ -31,6 +31,17 @@
       },
       "keywords": ["pixel-art", "idle-game", "incremental", "react", "zustand", "canvas"],
       "category": "development"
+    },
+    {
+      "name": "apex",
+      "source": "./plugins/apex",
+      "description": "Autonomous development workflow: from feature request to Pull Request in 10 steps with specialized sub-agents",
+      "version": "1.0.0",
+      "author": {
+        "name": "CookSaw"
+      },
+      "keywords": ["workflow", "automation", "feature", "pull-request", "development", "agents"],
+      "category": "development"
     }
   ]
 }

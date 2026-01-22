@@ -1,0 +1,9 @@
+{
+  "name": "apex",
+  "version": "1.0.0",
+  "description": "Workflow autonome de développement : de la feature request à la Pull Request en 10 étapes avec sub-agents spécialisés",
+  "author": {
+    "name": "CookSaw",
+    "email": "romain.garcia99@gmail.com"
+  }
+}
